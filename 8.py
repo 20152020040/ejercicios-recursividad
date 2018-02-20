@@ -6,6 +6,6 @@ def mayorDig(n):
             return int(mayorDig(n%10))
         else:
             return int(mayorDig(n/10))
-n=int(input("ingrese el numero 1: "))
+n=int(input("ingrese el número: "))
 
-print("el resultado es ",mayorDig(n))
+print("El mayor digito es ",mayorDig(n))
